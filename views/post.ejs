@@ -1,0 +1,34 @@
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Numan's Node.js Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <%- include('partials/navbar') %>
+        <div>
+          <h4 class="list-group-item-heading"><%= post.AUTHOR %></h4>
+          <p class="list-group-item-text"><%= post.TITLE %></p>
+      </div>
+      <%- include('partials/footer') %>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
